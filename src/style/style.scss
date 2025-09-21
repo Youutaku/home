@@ -45,9 +45,9 @@ a:hover {
 
 // 字体文件
 @font-face {
-  font-family: "JetBrainsMono-Regular";
+  font-family: "Inconsolata-Regular";
   font-display: swap;
-  src: url("/font/JetBrainsMono-Regular-2.ttf") format("truetype");
+  src: url("/font/Inconsolata-Regular-2.ttf") format("truetype");
 }
 
 /*@font-face {
@@ -116,7 +116,7 @@ a:hover {
       background-color: #efefef;
       border-radius: 6px;
       text-align: center;
-      font-family: "JetBrainsMono-Regular";
+      font-family: "Inconsolata-Regular";
       span {
         color: #564d59;
         font-size: 0.9rem;
