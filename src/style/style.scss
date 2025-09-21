@@ -45,16 +45,16 @@ a:hover {
 
 // 字体文件
 @font-face {
-  font-family: "Pacifico-Regular";
+  font-family: "JetBrainsMono-Regular";
   font-display: swap;
-  src: url("/font/Pacifico-Regular.ttf") format("truetype");
+  src: url("/font/JetBrainsMono-Regular-2.ttf") format("truetype");
 }
 
-@font-face {
+/*@font-face {
   font-family: "uzura";
   font-display: swap;
   src: url("/font/uzura.ttf") format("truetype");
-}
+}*/
 
 // 基础样式
 #app {
