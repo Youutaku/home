@@ -51,9 +51,9 @@ a:hover {
 }
 
 @font-face {
-  font-family: "UnidreamLED";
+  font-family: "uzura";
   font-display: swap;
-  src: url("/font/UnidreamLED.ttf") format("truetype");
+  src: url("/font/uzura.ttf") format("truetype");
 }
 
 // 基础样式
@@ -116,7 +116,7 @@ a:hover {
       background-color: #efefef;
       border-radius: 6px;
       text-align: center;
-      font-family: "UnidreamLED";
+      font-family: "uzura";
       span {
         color: #564d59;
         font-size: 0.9rem;
