@@ -3,14 +3,14 @@
     <span>{{ weatherData.adCode.city }}&nbsp;</span>
     <span>{{ weatherData.weather.weather }}&nbsp;</span>
     <span>{{ weatherData.weather.temperature }}℃</span>
-    <span class="sm-hidden">
+    <span>
       &nbsp;{{
         weatherData.weather.winddirection?.endsWith("风")
           ? weatherData.weather.winddirection
           : weatherData.weather.winddirection + "风"
       }}&nbsp;
     </span>
-    <span class="sm-hidden">{{ weatherData.weather.windpower }}&nbsp;级</span>
+    <span>{{ weatherData.weather.windpower }}&nbsp;级</span>
   </div>
   <div class="weather" v-else>
     <span>天气数据获取失败</span>
